@@ -328,7 +328,8 @@
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Donut Chart</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Donut Chart <a data-toggle="modal" data-target="#settingsModal"><i class="fa fa-cog fa-fw"></i>Settings</a></h3>
+                                
                             </div>
                             <div class="panel-body">
                                 <div id="morris-donut-chart"></div>
@@ -469,6 +470,25 @@
 
     </div>
     <!-- /#wrapper -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Settings</h4>
+          </div>
+          <div class="modal-body">
+            <h1>Put drop Downs over here</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Build</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery Version 1.11.0 -->
     <script src="<?php echo base_url().'assets/js/jquery-1.11.0.js';?>"></script>
