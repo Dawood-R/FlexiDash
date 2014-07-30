@@ -11,6 +11,8 @@ class Login extends MX_Controller{
         $this->load->view('loginview');
             
     }
+    
+ 
         
 }
 

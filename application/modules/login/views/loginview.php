@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <script>
+       function region()
+       {
+           var myList=document.getElementById("myList")
+           document.getElementById("Region").value=myList.options[myList.selectedIndex].text
+           
+       }
+       </script>
+       }       
 <head>
 
     <meta charset="utf-8">
@@ -481,6 +490,27 @@
           </div>
           <div class="modal-body">
             <h1>Put drop Downs over here</h1>
+            
+            <select id="myList" onchange="region()">
+                <option>Africa</option>
+                <option>Australia</option>
+                <option>North America</option>
+                <option>South America</option>
+                
+            </select>
+            
+            <select id="myList" onchange="Jurisdiction()">
+                <option>Brazil</option>
+                <option>Chile</option>
+                <option>Mexico</option>
+                <option>Northwest Territories</option>
+                <option>Peru</option>
+                <option>Unoted States</option>
+                
+            </select>
+            
+                
+                
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
