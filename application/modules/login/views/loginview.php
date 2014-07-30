@@ -498,7 +498,10 @@
                 <option>South America</option>
                 
             </select>
-            
+            <p>
+                
+            </p>
+            <h1>Select Jusrisdiction</h1>
             <select id="myList" onchange="Jurisdiction()">
                 <option>Brazil</option>
                 <option>Chile</option>
