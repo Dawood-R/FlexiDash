@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -489,7 +491,9 @@
             <h4 class="modal-title" id="myModalLabel">Settings</h4>
           </div>
           <div class="modal-body">
-            <h1 style="text-height:12px">Put drop Downs over here</h1>
+            <h1 style="text-height:'12px'">Put drop Downs over here</h1>
+            
+            
             
             <select id="myList" onchange="region()">
                 <option>Africa</option>
