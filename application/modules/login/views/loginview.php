@@ -505,7 +505,7 @@
                 <option>Mexico</option>
                 <option>Northwest Territories</option>
                 <option>Peru</option>
-                <option>Unoted States</option>
+                <option>United States</option>
                 
             </select>
             
