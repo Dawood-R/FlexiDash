@@ -155,7 +155,8 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+     
+                            <h3 class="panel-title"><a data-toggle="modal" data-target="#LoginModal"><i class="fa fa-cog fa-fw"></i>Log in</a></h3>
                         </li>
                     </ul>
                 </li>
@@ -522,6 +523,48 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Build</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- LoginModal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Settings</h4>
+          </div>
+          <div class="modal-body">
+            <h4 style="text-height:'12px'">Please enter user details</h4>
+            
+            <?php
+
+echo form_open('users/submit');
+
+echo "Username";
+echo "<br>";
+echo form_input('username','');
+echo "<br>";
+echo "<br>";
+echo "Password";
+echo "<br>";
+echo form_password('pword','');
+echo "<br>";
+echo "<br>";
+echo form_submit('submit', 'Submit');
+
+echo form_close();
+            
+            ?>
+            
+                
+                
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        
           </div>
         </div>
       </div>
