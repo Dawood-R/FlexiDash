@@ -5,5 +5,10 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>flexidash</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>FlexiDash</word>
+            <word>Jusrisdiction</word>
+            <word>LoginModal</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
